@@ -10,16 +10,19 @@
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-};
+}
+
+.container{
+    width:70%;
+    max-width: 1200px;
+    margin:0px auto;
+}
 
 header {
-    background-color: red;
     width:100%;
 }
 
 nav {
-    width:70%;
-    max-width: 1200px;
     background-color: white;
     margin:0px auto;
     display:flex;
@@ -48,10 +51,69 @@ nav ul li a{
 }
 
 nav button{
-    background-color: #30B868;
+    background-color: #469165;
     color:white;
     display: inline-block;
     padding: 12px 16px;
     border:none;
     border-radius: 5px;
+}
+
+.banner-section{
+    background-image: url('/assets/hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+.text-content{
+    padding: 70px 0 134px 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.early-access{
+    color: #469165;
+    background:white;
+    padding:10px 15px;
+    border-radius: 20px;
+}
+.early-access p i{
+    margin-right: 5px;
+}
+
+.heading{
+    font-size: 72px;
+}
+.heading-green{
+    color: #469165;
+    font-size: 72px;;
+}
+
+.description{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom:20px
+}
+
+.buttons{
+    display:flex;
+    gap:10px;
+}
+
+.buttons button{
+    padding: 12px 16px;
+    border-radius: 5px;
+    color:white
+}
+
+.green {
+    background-color:#469165 ;
+    color:white;
+    border: 1px solid #469165 ;
+}
+.transparent{
+    background-color: transparent;
+    border:1px solid white;
 }
