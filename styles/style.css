@@ -20,6 +20,9 @@
 .lighter-text{
     color: #627382;
 }
+.green-color{
+    color:#469165;
+}
 
 header {
     width:100%;
@@ -162,4 +165,36 @@ nav button{
 }
 .card-description{
     text-align: center;
+}
+
+
+.brain-section{
+    display:flex;
+    margin: 120px auto;
+}
+
+.brain-section img{
+    width:50%;
+}
+
+.brain-info{
+    margin:auto;
+}
+.solution{
+text-transform: uppercase;
+font-weight: medium;
+}
+.brain-info h3{
+    font-weight: bold;
+    font-size: 48px;
+}
+.brain-description{
+    margin:20px 0 40px 0;
+}
+.brain-info ul{
+    list-style-type: none;
+}
+
+.brain-info ul li{
+    margin-top:10px;
 }
